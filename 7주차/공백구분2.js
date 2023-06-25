@@ -1,0 +1,5 @@
+function solution(my_string) {
+  return my_string.trim().split(/\s+/g);
+}
+
+solution(" i    love  you");
